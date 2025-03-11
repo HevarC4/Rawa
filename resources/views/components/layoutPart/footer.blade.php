@@ -1,3 +1,15 @@
-<footer class="w-full h-16 bg-gray-700 text-white flex items-center justify-center shadow-md">
-    <p class="text-sm">&copy; 2025 My Website. All rights reserved.</p>
+<footer class="u-align-center u-clearfix u-container-align-center u-footer u-grey-80 u-footer" id="sec-063b">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">
+            Sample text. Click to select the Text Element.
+        </p>
+    </div>
 </footer>
+{{-- <section class="u-backlink u-clearfix u-grey-80">
+    <p class="u-text">
+        <span>This site was created with the </span>
+        <a class="u-link" href="https://nicepage.com/" target="_blank" rel="nofollow">
+            <span>Nicepage</span>
+        </a>
+    </p>
+</section> --}}

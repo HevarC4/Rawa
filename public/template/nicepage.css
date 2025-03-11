@@ -2613,7 +2613,7 @@ a {
 }
 .u-form div.u-form-send-error,
 .u-form div.u-form-send-success {
-  display: none;
+  /* display: none; */
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -2622,6 +2622,8 @@ a {
   color: #fff;
   padding: 20px;
   border: none;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .u-form .u-form-group.u-form-checkbox,
 .u-form .u-form-group.u-form-agree {

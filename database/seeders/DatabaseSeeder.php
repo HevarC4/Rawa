@@ -6,6 +6,7 @@ use App\Models\User;
 use App\Models\Category;
 use App\Models\Post;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\WorkRequest;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -24,6 +25,7 @@ class DatabaseSeeder extends Seeder
 
         Category::factory(3)->create();
         Post::factory(20)->create();
+        WorkRequest::factory(10)->create();
        
     }
 }

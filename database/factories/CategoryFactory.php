@@ -17,11 +17,12 @@ class CategoryFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => fake()->name(),
-            'image' => fake()->image(),
-            'discription' => fake()->title(),
-            'updated_at'=> now(),
-            'created_at'=> now(),
+            'name' => fake()->unique()->randomElement(['AutoCad', 'SolidWork', 'ArtCam']),
+            'image' => fake()->imageUrl(), 
+            'discription' => fake()->sentence(), 
+            'updated_at' => now(),
+            'created_at' => now(),
         ];
+        
     }
 }
